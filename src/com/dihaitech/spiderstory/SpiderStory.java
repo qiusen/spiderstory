@@ -1,4 +1,4 @@
-package com.acomp.spiderstory;
+package com.dihaitech.spiderstory;
 
 import java.io.BufferedReader;
 

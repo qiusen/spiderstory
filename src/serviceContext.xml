@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	
+	  <!-- 频道 service -->	
+	  <bean id="channelService" class="com.dihaitech.spiderstory.service.impl.ChannelServiceImpl"/>
+	  
+	  <!-- 模板 service -->	
+	  <bean id="templeteService" class="com.dihaitech.spiderstory.service.impl.TempleteServiceImpl"/>
+	  
+	  <!-- 文章栏目 service -->	
+	  <bean id="articleColumnService" class="com.dihaitech.spiderstory.service.impl.ArticleColumnServiceImpl"/>
+	  
+	  <!-- 文章类别 service -->	
+	  <bean id="articleCategoryService" class="com.dihaitech.spiderstory.service.impl.ArticleCategoryServiceImpl"/>
+	  
+	  <!-- 文章 service -->	
+	  <bean id="articleService" class="com.dihaitech.spiderstory.service.impl.ArticleServiceImpl"/>
+	  
+</beans>

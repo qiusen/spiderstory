@@ -42,6 +42,11 @@ import com.dihaitech.spiderstory.service.ITempleteService;
 import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
 
+/**
+ * 小说爬取
+ * @author qiusen
+ *
+ */
 public class SpiderStory {
 
 	private static ApplicationContext factory = 
@@ -53,8 +58,8 @@ public class SpiderStory {
 	private static ITempleteService templeteService = (ITempleteService)factory.getBean("templeteService");
 	private static IChannelService channelService = (IChannelService)factory.getBean("channelService");
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
-
 		// TODO Auto-generated method stub
 
 		String url = "http://www.513gp.org/zhongguoshipianjudaquan/";
@@ -69,6 +74,7 @@ public class SpiderStory {
 //		String categoryCode = "xs";
 //		String auth = "仐三";
 		
+		System.out.println("********** 处理开始 " + new Date().toLocaleString() + " **********");
 		
 		List<Integer> idList = spider(url, fileName, columnCode, categoryCode, auth);
 		if(idList!=null && idList.size()>0){
@@ -84,6 +90,8 @@ public class SpiderStory {
 				}
 			}
 		}
+		
+		System.out.println("********** 处理结束 " + new Date().toLocaleString() + " **********");
 
 	}
 

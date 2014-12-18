@@ -64,7 +64,7 @@ public class SpiderStory {
 
 		String url = "http://www.513gp.org/zhongguoshipianjudaquan/";
 		String fileName = "/myfile/zhongguoshipianjudaquan.txt";
-		String columnCode = "zgspjdqdyj";
+		String columnCode = "zgspjdqdsj";
 		String categoryCode = "xs";
 		String auth = "我是骗子他祖宗";
 		

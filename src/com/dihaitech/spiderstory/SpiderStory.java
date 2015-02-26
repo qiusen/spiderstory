@@ -68,10 +68,19 @@ public class SpiderStory {
 		String categoryCode = "xs";
 		String auth = "我是骗子他祖宗";
 		
+		//我当道士那些年
 //		String url = "http://www.wddsnxn.org/";
 //		String fileName = "/myfile/wddsnxn.txt";
 //		String columnCode = "ssjh";
 //		String categoryCode = "xs";
+//		String auth = "仐三";
+		
+		
+		//山海密闻录
+//		String url = "http://www.shanhaimiwenlu.com/";
+//		String fileName = "/myfile/shmwl.txt";
+//		String columnCode = "xj";
+//		String categoryCode = "xj";
 //		String auth = "仐三";
 		
 		System.out.println("********** 处理开始 " + new Date().toLocaleString() + " **********");
